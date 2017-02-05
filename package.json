@@ -1,0 +1,19 @@
+{
+  "name": "pointer-db",
+  "version": "0.1.0",
+  "description": "A database for pointer proyect",
+  "main": "server.js",
+  "scripts": {
+  	"lint": "standard",
+    "test": "npm run lint && ava"
+  },
+  "standard": {
+  	"pasrser": "babel-eslint"
+  },
+  "author": "Mario Godinez Medina",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.18.1",
+    "standard": "^8.6.0"
+  }
+}
